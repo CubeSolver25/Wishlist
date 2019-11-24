@@ -1,1 +1,3 @@
-console.log(document.getElementById("1"))
+  function searchURL(){
+    console.log(document.getElementById('textbox_id').value)
+  }

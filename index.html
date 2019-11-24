@@ -7,22 +7,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <script src="script.js"></script>
-<form action="/my-handling-form-page" method="post">
+<form method="post">
   <div>
-    <label for="name">Name:</label>
+    <label class="name" for="name">Name:</label>
     <input type="text" id="name" name="user_name">
   </div>
   <div>
-    <label for="name">Add Item:</label>
-    <input type="text" id="item" name="add_item">
+    <input type="text" id="item" name="add_item" placeholder="I want this item!">
+    <button type="button" class="button">Add Item</button>
   </div>
-  <div class="button">
-  <div class="button">
-  <button type="submit">Done</button>
+  <button type="submit" class="buttonWishlist">Send Wishlist!</button>
 </div>
 </form>
   </body>
